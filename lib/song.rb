@@ -3,3 +3,5 @@ class Song
     self.count = 0 
     @@count
   end
+  
+  
