@@ -4,4 +4,3 @@ class Song
     @@count
   end
   
-  
