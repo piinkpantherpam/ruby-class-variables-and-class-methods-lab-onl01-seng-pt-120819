@@ -21,4 +21,5 @@ class Song
   end
   
   self.genres_count
-  @@genres.
+  @@genres.inject(Hash.new(0)) { |total, i| total [i]+= 1; total}
+end
