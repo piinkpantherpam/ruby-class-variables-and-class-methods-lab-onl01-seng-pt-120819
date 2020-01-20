@@ -15,3 +15,4 @@ class Song
     @@artists.uniq 
   end
   
+  @@genres = 
