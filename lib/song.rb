@@ -7,4 +7,5 @@ class Song
   
   @@artists = []
   
+  def 
   
