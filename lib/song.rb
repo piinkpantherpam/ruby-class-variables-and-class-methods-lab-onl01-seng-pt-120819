@@ -39,4 +39,5 @@ class Song
     @genre = genre
     @@genres << genre
     @@count += 1 
-    
+  end
+  
