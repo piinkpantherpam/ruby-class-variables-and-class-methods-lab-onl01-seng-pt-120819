@@ -20,7 +20,7 @@ class Song
     @@genres = uniq
   end
   
-  self.genres_count
+  def self.genres_count
   @@genres.inject(Hash.new(0)) { |total, i| total [i]+= 1 ;total}
 end
 
