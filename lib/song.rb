@@ -37,4 +37,5 @@ class Song
     @artist = artist
     @artists << artist
     @genre = genre
+    @genres << genre
     
