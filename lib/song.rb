@@ -11,5 +11,6 @@ class Song
     @@artists.inject(Hash.new(0)) { |total, i| total [i]+= 1; total}
   end
   def self.artists
-    @@
+    @@artists.uniq 
+  end
   
