@@ -38,4 +38,4 @@ class Song
     @@artists << artist
     @genre = genre
     @@genres << genre
-    @@count 
+    @@count +=1 
