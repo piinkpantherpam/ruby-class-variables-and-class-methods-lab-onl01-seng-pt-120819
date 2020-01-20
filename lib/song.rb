@@ -32,4 +32,4 @@ class Song
     genre_count
   end
   
-  def initialize
+  def initialize(name, artist, genre)
